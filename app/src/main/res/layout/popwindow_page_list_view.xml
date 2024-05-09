@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/arrowIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_below="@+id/arrowIcon"
+        android:background="@drawable/shape_pop_window_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/downloadConfigForPopTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_download_config_file"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/downLoadRaceListOnMainTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_download_runner_list"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/uploadZipFileTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_upload_zip_file"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/checkEpcTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_chip_detection"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/settingPageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_setting"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quitSystemTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:background="@drawable/selector_page_list_click"
+            android:gravity="center"
+            android:text="@string/pop_exit_app"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

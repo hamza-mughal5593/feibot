@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Devices>
+    <Device>
+        <MacAddress>38:FD:FE:E1:4B:8B</MacAddress>
+        <Id>H002</Id>
+    </Device>
+    <Device>
+        <MacAddress>42:ED:AE:01:05:0F</MacAddress>
+        <Id>H003</Id>
+    </Device>
+    <Device>
+        <MacAddress>38:FD:FE:E1:4B:C9</MacAddress>
+        <Id>H001</Id>
+    </Device>
+    <Device>
+        <MacAddress>42:ED:AE:01:04:EB</MacAddress>
+        <Id>S200</Id>
+    </Device>
+    <Device>
+        <MacAddress>6C:15:24:81:41:04</MacAddress>
+        <Id>S105</Id>
+    </Device>
+</Devices>

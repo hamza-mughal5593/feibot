@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">手持2.0</string>
+    <string name="main_stop_read_card" translatable="true">停读</string>
+    <string name="main_click_gun">响枪</string>
+    <string name="main_clear_gun">清空</string>
+    <string name="main_stop_click_gun">比赛进行中</string>
+    <string name="setting_download_config_file_loading">下载配置文件中..</string>
+    <string name="setting_download_config_file_error">网络错误请重新再试!</string>
+    <string name="setting_download_config_file_done">配置文件下载完成!</string>
+    <string name="setting_download_config_file_no_check">没有在计时后台注册设备或没有设置规则</string>
+    <string name="setting_download_player_list_loading">下载名单中…</string>
+    <string name="setting_download_player_list_success">下载名单成功!</string>
+    <string name="setting_download_player_list_error">下载名单失败!</string>
+    <string name="setting_download_player_list_empty">下载名单为空!</string>
+    <string name="setting_upgrading">升级中…</string>
+    <string name="setting_upgrade_success">升级完成，已经是最新版本!</string>
+    <string name="main_upload_loading">上传中!</string>
+    <string name="main_upload_success">ZIP文件上传成功!</string>
+    <string name="main_upload_error">上传错误!未找到文件</string>
+    <string name="main_upload_fail">上传CSV失败!网络不佳</string>
+    <string name="detail_network_link">已联网</string>
+    <string name="detail_network_unlink">网络不佳</string>
+    <string name="system_name_text">手持设备计时系统</string>
+    <string name="main_start_read_card">读卡</string>
+    <string name="detail_event_id_tittle">赛事编号：</string>
+    <string name="detail_gun_time_tittle">响枪时间：</string>
+    <string name="detail_device_id_tittle">设备编号：</string>
+    <string name="detail_data_in_wait_tittle">待传数据：</string>
+    <string name="detail_position_tittle">位置坐标：</string>
+    <string name="detail_tag_different_tittle">不同标签：</string>
+    <string name="detail_time_tittle">本地时间：</string>
+    <string name="detail_battery_tittle">电池电量：</string>
+    <string name="detail_net_status_tittle">网络状态：</string>
+    <string name="pop_download_config_file">下载配置文件</string>
+    <string name="pop_download_runner_list">下载赛事名单</string>
+    <string name="pop_upload_zip_file">ZIP文件上传</string>
+    <string name="pop_upload_epc_list">实时上传EPC</string>
+    <string name="pop_chip_detection">芯片检测</string>
+    <string name="pop_setting">设置</string>
+    <string name="pop_exit_app">退出软件</string>
+    <string name="setting_date_tittle">日期和时间</string>
+    <string name="setting_power_setting">功率设置</string>
+    <string name="setting_upgrade_tittle">软件升级</string>
+    <string name="setting_about_tittle">关于</string>
+    <string name="setting_register_machine">注册设备</string>
+    <string name="setting_date_inside_tittle">日期和时间</string>
+    <string name="setting_date_inside_setting_date">设置日期</string>
+    <string name="setting_date_inside_setting_time">设置时间</string>
+    <string name="setting_date_inside_setting_use_internet_time">使用网络时间</string>
+    <string name="set">设置</string>
+    <string name="setting_date_inside_setting_year">年</string>
+    <string name="setting_date_inside_setting_month">月</string>
+    <string name="setting_date_inside_setting_day">日</string>
+    <string name="setting_power_inside_power_test">功率:</string>
+    <string name="setting_upgrade_inside_version">软件版本:</string>
+    <string name="setting_upgrade_inside_bt_text">升级</string>
+    <string name="setting_about_tittle_text">关于</string>
+    <string name="setting_about_company_name">西安菲猫创达荣誉出品</string>
+    <string name="setting_about_mac_address">本机MAC地址：</string>
+    <string name="setting_about_copy_right_test">Copyright ©1996–2022 跑吧 Corporation, All Rights Reserved</string>
+    <string name="dialog_race_id_test">赛事ID：</string>
+    <string name="dialog_race_list_size_test">下载名单数量:</string>
+    <string name="dialog_race_list_union_test">条!</string>
+    <string name="setting_chip_detection_name_text">姓名：</string>
+    <string name="setting_chip_detection_gender_text">性别：</string>
+    <string name="setting_chip_detection_group_text">项目：</string>
+    <string name="setting_chip_detection_scan_bt">扫描</string>
+    <string name="setting_chip_detection_epc_text">EPC：</string>
+    <string name="setting_chip_detection_cancel_info_text">取消主界面读卡，方可使用查询功能</string>
+    <string name="setting_search_bib_number_text">参赛号：</string>
+    <string name="setting_registering">注册中…</string>
+    <string name="setting_register_success">注册成功!</string>
+    <string name="setting_register_fail">注册失败!请检查MAC地址是否注册到服务器!</string>
+    <string name="upgrade_progress">下载升级包%1$d%2$s…请稍等!</string>
+    <string name="upgrade_install">安装中…请勿关闭程序!</string>
+    <string name="query_history">查询历史记录中…</string>
+    <string name="query_history_loaded">历史记录成功返回%1$s条数据!</string>
+    <string-array name="arrayMode">
+        <item>中国标准(920~925MHz)</item>
+        <item>中国标准(840~845MHz)</item>
+        <item>ETSI标准(865~868MHz)</item>
+        <item>定频模式(915MHz)</item>
+        <item>美国标准(902~928MHz)</item>
+    </string-array>
+    <string-array name="arrayPower" translatable="false">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string name="btSetFre">设置频率</string>
+    <string name="btGetFre">读取频率</string>
+    <string name="normal_set">公共模块设置</string>
+    <string name="tvMode">工作模式：</string>
+    <string name="btSetProtocol">设置协议</string>
+    <string name="btSetFreHop">设置频点</string>
+    <string name="uhf_title_power">输出功率：</string>
+    <string name="uhf_btn_setpower">设置功率</string>
+    <string name="uhf_btn_workwait">设置空占比</string>
+    <string name="uhf_btn_get_workwait">获取空占比</string>
+    <string name="uhf_btn_getpower">读取功率</string>
+    <string name="uhf_title_dbm">dBm</string>
+    <string name="freHopType">频点类型：</string>
+    <string name="China">中国</string>
+    <string name="Europe">欧洲</string>
+    <string name="America">美国</string>
+    <string name="Others">其他</string>
+    <string name="tvFreHop">频点：</string>
+    <string-array name="arrayFreHop_us" translatable="false">
+        <item>902.75</item>
+        <item>903.25</item>
+        <item>903.75</item>
+        <item>904.25</item>
+        <item>904.75</item>
+        <item>905.25</item>
+        <item>905.75</item>
+        <item>906.25</item>
+        <item>906.75</item>
+        <item>907.25</item>
+        <item>907.75</item>
+        <item>908.25</item>
+        <item>908.75</item>
+        <item>909.25</item>
+        <item>909.75</item>
+        <item>910.25</item>
+        <item>910.75</item>
+        <item>911.25</item>
+        <item>911.75</item>
+        <item>912.25</item>
+        <item>912.75</item>
+        <item>913.25</item>
+        <item>913.75</item>
+        <item>914.25</item>
+        <item>914.75</item>
+        <item>915.25</item>
+        <item>915.75</item>
+        <item>916.25</item>
+        <item>916.75</item>
+        <item>917.25</item>
+        <item>917.75</item>
+        <item>918.25</item>
+        <item>918.75</item>
+        <item>919.25</item>
+        <item>919.75</item>
+        <item>920.25</item>
+        <item>920.75</item>
+        <item>921.25</item>
+        <item>921.75</item>
+        <item>922.25</item>
+        <item>922.75</item>
+        <item>923.25</item>
+        <item>923.75</item>
+        <item>924.25</item>
+        <item>924.75</item>
+        <item>925.25</item>
+        <item>925.75</item>
+        <item>926.25</item>
+        <item>926.75</item>
+        <item>927.25</item>
+    </string-array>
+    <string name="close">关闭</string>
+    <string-array name="arrayPower2" translatable="false">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="arrayFreHop" translatable="false">
+        <item>865.700</item>
+        <item>866.300</item>
+        <item>866.900</item>
+        <item>867.500</item>
+        <item>920.625</item>
+        <item>920.875</item>
+        <item>921.125</item>
+        <item>921.375</item>
+        <item>921.625</item>
+        <item>921.875</item>
+        <item>922.125</item>
+        <item>922.375</item>
+        <item>922.625</item>
+        <item>922.875</item>
+        <item>923.125</item>
+        <item>923.375</item>
+        <item>923.625</item>
+        <item>923.875</item>
+        <item>924.125</item>
+        <item>924.375</item>
+    </string-array>
+</resources>

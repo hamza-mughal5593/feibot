@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion 30
+    //buildToolsVersion "30.0.3"
+
+    dataBinding {
+        enabled = true
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    defaultConfig {
+        applicationId "com.feibot.handsetforcheckuhf.plus"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        versionName "2.0.0.7"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a","x86", "mips"
+        }
+        //指定room.schemaLocation生成的文件路径
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    //打包APK的名称
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName = outputFile.name.replace("app-debug.apk", "PDA_C72&C5_${defaultConfig.versionName}.apk")
+                outputFileName = fileName
+            }
+        }
+    }
+}
+
+dependencies {
+    //加载读卡UHF支持类
+    api fileTree(dir: "libs", include: ["*.jar","*.aar"])
+//implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    compile files('libs/uhf_lib.jar')
+//    implementation files('libs/xUtils-2.5.5.jar')
+//    implementation files('libs/jxl.jar')
+//    implementation(name: 'DeviceAPI20220518', ext: 'aar')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //网络加载支持包
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    //ViewModel
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    //动态申请权限第三方
+    implementation 'com.github.respost:OmgPermission:1.0'
+    //MMKV持久化存储
+    implementation 'com.tencent:mmkv-static:1.1.1'
+    //room持久层
+    def room_version = "2.2.3"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    //zip打包工具
+    implementation 'com.github.ghost1372:Mzip-Android:0.4.0'
+    //软件升级库
+    implementation 'com.github.xuexiangjys:XUpdate:2.0.9'
+    //workManager
+    implementation  'androidx.work:work-runtime:2.4.0'
+    //获取设备信息
+    implementation "com.github.fingerprintjs:fingerprint-android:1.3.0"
+    //Rxjava
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+}

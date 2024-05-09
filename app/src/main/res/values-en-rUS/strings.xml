@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_stop_read_card">stop</string>
+    <string name="main_click_gun">Gun Start</string>
+    <string name="main_start_read_card">start</string>
+    <string name="main_clear_gun">Clear</string>
+    <string name="detail_event_id_tittle">Event ID：</string>
+    <string name="detail_gun_time_tittle">Gun time：</string>
+    <string name="detail_device_id_tittle">Device ID：</string>
+    <string name="detail_data_in_wait_tittle">Data in wait：</string>
+    <string name="detail_position_tittle">Position：</string>
+    <string name="detail_tag_different_tittle">Tag different：</string>
+    <string name="detail_time_tittle">Time：</string>
+    <string name="detail_battery_tittle">Battery：</string>
+    <string name="detail_net_status_tittle">Internet status：</string>
+    <string name="pop_download_config_file">Download config file</string>
+    <string name="pop_download_runner_list">Download runner list</string>
+    <string name="pop_upload_zip_file">Upload ZIP file</string>
+    <string name="pop_chip_detection">Chip detection</string>
+    <string name="pop_exit_app">Exit</string>
+    <string name="pop_setting">Setting</string>
+    <string name="setting_download_config_file_loading">Downloading config file…</string>
+    <string name="setting_download_config_file_error">Error in internet connection, please try again!</string>
+    <string name="setting_download_config_file_done">"Config file downloaded! "</string>
+    <string name="setting_download_config_file_no_check">"Device not registered or race info not configured "</string>
+    <string name="setting_download_player_list_loading">Downloading runner list…</string>
+    <string name="setting_download_player_list_success">"Runner list downloaded! "</string>
+    <string name="setting_download_player_list_error">Fail to download runner list!</string>
+    <string name="setting_download_player_list_empty">The runner list is empty!</string>
+    <string name="setting_upgrading">Upgrading …</string>
+    <string name="setting_upgrade_success">Upgrading finished, current version is the newest version!</string>
+    <string name="main_upload_success">Upload ZIP File successful</string>
+    <string name="main_upload_loading">Uploading</string>
+    <string name="main_upload_error">Error in uploading, fail to find the file</string>
+    <string name="main_upload_fail">Fail to upload CSV file, poor internet connection</string>
+    <string name="detail_network_link">Connected to internet</string>
+    <string name="detail_network_unlink">poor internet connection</string>
+    <string name="system_name_text">Feibot Handheld Timing System</string>
+    <string name="setting_date_tittle">Date And Time</string>
+    <string name="setting_power_setting">Power setting</string>
+    <string name="setting_upgrade_tittle">Software upgrade</string>
+    <string name="setting_about_tittle">About</string>
+    <string name="setting_date_inside_tittle">Date And Time</string>
+    <string name="setting_date_inside_setting_date">Date setting</string>
+    <string name="setting_date_inside_setting_time">Time setting</string>
+    <string name="setting_date_inside_setting_use_internet_time">Write in internet time</string>
+    <string name="set">Confirm</string>
+    <string name="setting_register_machine">To register machine</string>
+    <string name="setting_date_inside_setting_year">Year</string>
+    <string name="main_stop_click_gun">Race is Running…</string>
+    <string name="setting_date_inside_setting_month">Month</string>
+    <string name="setting_date_inside_setting_day">Day</string>
+    <string name="setting_power_inside_power_test">Power</string>
+    <string name="setting_upgrade_inside_version">Software version</string>
+    <string name="setting_upgrade_inside_bt_text">Upgrade</string>
+    <string name="setting_about_tittle_text">About</string>
+    <string name="setting_about_company_name">Xi\'an Feibot Intelligent Technology Co.,ltd</string>
+    <string name="setting_about_copy_right_test">Copyright ©1996–2023 Feibot Corporation, All Rights Reserved</string>
+    <string name="dialog_race_id_test">Event ID.</string>
+    <string name="dialog_race_list_size_test">List Size.</string>
+    <string name="dialog_race_list_union_test">.</string>
+    <string name="setting_chip_detection_name_text">Name：</string>
+    <string name="setting_chip_detection_gender_text">Gender：</string>
+    <string name="setting_chip_detection_group_text">Item：</string>
+    <string name="setting_chip_detection_scan_bt">Read</string>
+    <string name="setting_chip_detection_epc_text">EPC：</string>
+    <string name="setting_chip_detection_cancel_info_text">Cancel the card reading in the main interface before using the query function!</string>
+    <string name="setting_search_bib_number_text">Bib Number：</string>
+    <string name="app_name">Feibot</string>
+    <string name="setting_registering">to register</string>
+    <string name="setting_register_success">registered</string>
+    <string name="setting_register_fail">Please check whether the MAC address is registered with the server!</string>
+    <string name="setting_about_mac_address">Device MAC address:</string>
+    <string name="upgrade_progress">Upgrade.%1$d%2$s..Please wait..</string>
+    <string name="upgrade_install">Do not close during installation!</string>
+    <string name="query_history">Search Data...</string>
+    <string name="query_history_loaded">Success Return %1$s</string>
+    <string name="pop_upload_epc_list">Upload EPC list</string>
+    <string-array name="arrayMode">
+        <item>China Standard(920~925MHz)</item>
+        <item>China Standard(840~845MHz)</item>
+        <item>ETSI Standard(865~868MHz)</item>
+        <item>Fixed Frequency(915MHz)</item>
+        <item>United States Standard(902~928MHz)</item>
+    </string-array>
+    <string name="btSetFre">Set Frequency</string>
+    <string name="btGetFre">Get Frequency</string>
+    <string name="normal_set">Common settings</string>
+    <string name="tvMode">Working Mode：</string>
+    <string name="btSetProtocol">Set Protocol</string>
+    <string name="btSetFreHop">Set FreHop</string>
+
+
+    <!-- power -->
+    <string name="uhf_title_power">Output Power：</string>
+    <string name="uhf_btn_setpower">Set Power</string>
+    <string name="uhf_btn_workwait">Set Pwm</string>
+    <string name="uhf_btn_get_workwait">Get Pwm</string>
+    <string name="uhf_btn_getpower">Get Power</string>
+    <string name="uhf_title_dbm">dBm</string>
+    <string name="freHopType">Hop type：</string>
+    <string name="China">China</string>
+    <string name="Europe">Europe</string>
+    <string name="America">America</string>
+    <string name="Others">Others</string>
+    <string name="tvFreHop">Hop：</string>
+
+    <string name="close">close</string>
+
+</resources>

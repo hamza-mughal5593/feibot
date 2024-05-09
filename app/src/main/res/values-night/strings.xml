@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detail_gun_time_tittle">响枪时间：</string>
+    <string name="detail_device_id_tittle">设备编号：</string>
+    <string name="detail_data_in_wait_tittle">待传数据：</string>
+    <string name="detail_position_tittle">位置坐标：</string>
+    <string name="detail_tag_different_tittle">不同标签：</string>
+    <string name="detail_time_tittle">本地时间：</string>
+    <string name="detail_battery_tittle">电池电量：</string>
+    <string name="detail_net_status_tittle">网络状态：</string>
+    <string name="pop_download_config_file">下载配置文件</string>
+    <string name="pop_download_runner_list">下载赛事名单</string>
+    <string name="pop_upload_zip_file">ZIP文件上传</string>
+    <string name="pop_chip_detection">芯片检测</string>
+    <string name="pop_exit_app">退出软件</string>
+    <string name="setting_date_tittle">日期和时间</string>
+    <string name="setting_power_setting">功率设置</string>
+    <string name="setting_upgrade_tittle">软件升级</string>
+    <string name="setting_about_tittle">关于</string>
+    <string name="setting_date_inside_tittle">日期和时间</string>
+    <string name="setting_date_inside_setting_date">设置日期</string>
+    <string name="setting_date_inside_setting_time">设置时间</string>
+    <string name="setting_date_inside_setting_use_internet_time">使用网络时间</string>
+    <string name="set">设置</string>
+    <string name="setting_date_inside_setting_year">年</string>
+    <string name="setting_power_inside_power_test">功率:</string>
+    <string name="setting_upgrade_inside_version">软件版本:</string>
+    <string name="setting_upgrade_inside_bt_text">升级</string>
+    <string name="setting_about_tittle_text">关于</string>
+    <string name="setting_about_company_name">西安菲猫创达荣誉出品</string>
+    <string name="setting_about_copy_right_test">Copyright ©1996-2023 跑吧 Corporation, All Rights Reserved</string>
+    <string name="setting_chip_detection_name_text">姓名：</string>
+    <string name="setting_chip_detection_gender_text">性别：</string>
+    <string name="setting_chip_detection_group_text">组别：</string>
+    <string name="setting_chip_detection_scan_bt">扫描</string>
+    <string name="setting_chip_detection_epc_text">EPC：</string>
+    <string name="setting_chip_detection_cancel_info_text">取消主界面读卡，方可使用查询功能</string>
+    <string name="setting_search_bib_number_text">参赛号：</string>
+</resources>
