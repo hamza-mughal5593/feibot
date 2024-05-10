@@ -22,7 +22,7 @@
             android:id="@+id/clickGunBt"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="@string/main_click_gun" />
 
@@ -30,7 +30,7 @@
             android:id="@+id/readCardBt"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:layout_weight="1"
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
@@ -41,9 +41,16 @@
             android:id="@+id/clearBt"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="@string/main_clear_gun" />
+        <Button
+            android:id="@+id/postall"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Post All" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

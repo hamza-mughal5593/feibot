@@ -237,8 +237,8 @@ class MainFragmentViewModel :ViewModel(){
         val epc = readerResultRepository.getReaderResult()
         //没有数据返回
         if (epc.isEmpty()) return
-        val epcTimestamp =   TimeStamp.getMillis(0L,4).toString()
-        val csvTimestamp =   TimeStamp.getMillis(0L,7).toString()
+        val epcTimestamp =   TimeStamp.getMillis(0L,3).toString()
+        val csvTimestamp =   TimeStamp.getMillis(0L,3).toString()
         //判断列表是否为空 添加第一条数据
         if(mEpcList.isEmpty()){
             //添加Epc元素
